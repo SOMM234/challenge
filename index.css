@@ -70,7 +70,7 @@ word-spacing: 2px;
     
 }
 
-@media screen and (min-width:320px) and(max-width:480px) {
+@media screen and (max-width:480px) {
     .sectiona{
         display: flex;
         flex-direction: column;
@@ -87,7 +87,7 @@ word-spacing: 2px;
     }
 
 }
-@media screen and (min-width:481px) and(max-width:768px) {
+@media screen and(max-width:768px) {
     .sectiona{
         display: flex;
         flex-direction: column;
