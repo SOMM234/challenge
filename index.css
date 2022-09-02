@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(243,234,227);
+}
+.sectiona{
+    display: flex;
+ margin-top: 50px;
+ justify-content: center;
+ border-radius: 20px;
+}
+
+.sectiona img{
+    height: 600px;
+    width: 450px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.abc{
+    background-color: white;
+    height: 600px;
+    width: 450px;
+    padding-left: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.sectiona .a1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    font-size: 1rem;
+}
+.sectiona .a2{
+    font-size: 4rem;
+    font-weight:bolder;
+}
+.sectiona .a3{
+    font-size: 1.5rem;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+.sectiona .a4 p{
+color:rgb(61,129,104) ;
+font-size: 4rem;
+display: flex;
+flex-direction: row;
+}
+.sectiona .a4 {
+    display: flex;
+    flex-direction: row;
+}
+.sectiona button{
+background:rgb(61,129,104) ;
+border: none;
+width: 400px;
+height: 40px;
+border-radius: 10px;
+font-size: 1.25rem;
+padding-bottom: 10px;
+margin-top: 70px;
+word-spacing: 2px;
+}
+.sectiona button img{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    
+}
+
+@media screen and (max-width:480px) {
+    .sectiona{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 20px;
+    }
+    .abc{
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    .sectiona img{
+        border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    }
+
+}
+@media screen and (max-width:768px) {
+    .sectiona{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 20px;
+    }
+    .abc{
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    .sectiona img{
+        border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
